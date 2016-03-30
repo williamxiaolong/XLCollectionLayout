@@ -22,7 +22,6 @@
     // 创建布局
     XLLayout *layout = [[XLLayout alloc] init];
     layout.itemSize = CGSizeMake(160, 160);
-    //
     
     CGFloat collectionW = self.view.frame.size.width;
     CGFloat collectionH = 200;
