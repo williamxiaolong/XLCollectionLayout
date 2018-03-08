@@ -18,6 +18,7 @@
 		F003F8B31CAB690200428901 /* XLLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F003F8B21CAB690200428901 /* XLLayout.m */; };
 		F003F8B71CAB693300428901 /* XLPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F003F8B51CAB693300428901 /* XLPhotoCell.m */; };
 		F003F8B81CAB693300428901 /* XLPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F003F8B61CAB693300428901 /* XLPhotoCell.xib */; };
+		F0A7381B2050D56800AB861C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F0A7381A2050D56800AB861C /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		F003F8B41CAB693300428901 /* XLPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPhotoCell.h; sourceTree = "<group>"; };
 		F003F8B51CAB693300428901 /* XLPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPhotoCell.m; sourceTree = "<group>"; };
 		F003F8B61CAB693300428901 /* XLPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLPhotoCell.xib; sourceTree = "<group>"; };
+		F0A738192050D56800AB861C /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F0A7381A2050D56800AB861C /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				F003F8811CAB68B500428901 /* AppDelegate.m */,
 				F003F8831CAB68B500428901 /* ViewController.h */,
 				F003F8841CAB68B500428901 /* ViewController.m */,
+				F0A738192050D56800AB861C /* Person.h */,
+				F0A7381A2050D56800AB861C /* Person.m */,
 				F003F8861CAB68B500428901 /* Main.storyboard */,
 				F003F8891CAB68B500428901 /* Assets.xcassets */,
 				F003F88B1CAB68B500428901 /* LaunchScreen.storyboard */,
@@ -294,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0A7381B2050D56800AB861C /* Person.m in Sources */,
 				F003F8851CAB68B500428901 /* ViewController.m in Sources */,
 				F003F8B71CAB693300428901 /* XLPhotoCell.m in Sources */,
 				F003F8821CAB68B500428901 /* AppDelegate.m in Sources */,
@@ -526,6 +532,7 @@
 				F003F8A91CAB68B500428901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F003F8AA1CAB68B500428901 /* Build configuration list for PBXNativeTarget "XLCollectionLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +541,7 @@
 				F003F8AC1CAB68B500428901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F003F8AD1CAB68B500428901 /* Build configuration list for PBXNativeTarget "XLCollectionLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +550,7 @@
 				F003F8AF1CAB68B500428901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

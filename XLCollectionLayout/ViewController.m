@@ -33,6 +33,9 @@
     [collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([XLPhotoCell class]) bundle:nil] forCellWithReuseIdentifier:@"cell"];
     
     // 测试git
+//    UIView *testView = [[UIView alloc] init];
+    
+    
 }
 
 #pragma mark - UICollectionViewDataSource
